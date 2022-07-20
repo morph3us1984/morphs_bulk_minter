@@ -45,6 +45,8 @@ done
 set -x
 cat links_images_with_hashes.csv
 
+mkdir minting
+
 while IFS= read -r line; do
 echo "Creating minting jsons"
 #read in image links hand hashes
