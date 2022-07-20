@@ -1,0 +1,25 @@
+{
+    "format": "CHIP-0007",
+    "name": "Stick Figure #1",
+    "description": "Stick Figures!",
+    "sensitive_content": false,
+    "attributes": [],
+    "collection": {
+        "name": "Stick Figures",
+        "id": "1984577a-03cb-4040-9669-8da01d6f1df4",
+        "attributes": [
+            {
+                "type": "description",
+                "value": "Stick Figures!"
+            },
+            {
+                "type": "twitter",
+                "value": "@morph_3us"
+            },
+            {
+                "type": "website",
+                "value": "https://morph.tk/"
+            }
+        ]
+    }
+}
