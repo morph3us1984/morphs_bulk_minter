@@ -1,4 +1,5 @@
 #!/bin/bash
+#set -x
 RED="\e[31m"
 GREEN="\e[32m"
 BLUE="\e[34m"
@@ -42,7 +43,7 @@ hash=$(curl "$link_metadata" | sha256sum | cut -d " " -f 1)
 echo "$i.jpg,$link_metadata,$hash" >> links_metadata_with_hashes.csv
 let i++
 done
-set -x
+
 cat links_images_with_hashes.csv
 
 mkdir minting
