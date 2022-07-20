@@ -22,5 +22,8 @@ I recommend using NFT UP from nft.storage. It gives you the CID after upload and
 <br>
 You will only need the CID´s. Links will be generated automatically and hashes will be generated automatically<br>
 <br>
+Dont forget to fill out the config section! I have no checks in place, if they are empty, its on you!<br>
+The minting jsons have the minimum required json fields IMHO. If you need more, you have to add them yourself for now!<br>
+<br>
 If this tool was helping you, consider buying me a beer, or a beer factory, I am not your supervisor!<br>
 XCH:xch1ac74hll6w0ldmrpx3eldhxdck6e4hfyhdw5z8dt8seanfldyj0sqfna064
