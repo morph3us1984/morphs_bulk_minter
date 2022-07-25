@@ -66,6 +66,10 @@ You can trigger this by executing it manuelly with option 5 of the menu. It will
 The tool will ask you if the order it sees your files is the order you want to mint when its relevant. You can test your files<br>
 by issuing a "ls -1v *.jpg" first and rename your files accordingly. This command will show the order in which the tool sees your collection.<br>
 <br>
+-File online check:<br>
+Checks if files are really online before hashing and creating the minting Json´s<br>
+Process will be aborted if a single file is not available!<br>
+<br>
 <br>
 <br>
 If this tool was helping you, consider buying me a beer, or a beer factory, I am not your supervisor!<br>
