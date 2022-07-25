@@ -28,8 +28,10 @@ I recommend using NFT UP from nft.storage. It gives you the CID after upload and
 Install and run:<br>
 cd ~ && git clone https://github.com/morph3us1984/morphs_bulk_minter<br>
 Use:<br>
--First configure everything you need in bulk_minter.sh<br>
 cd ~ && cd morphs_bulk_minter<br>
+-First configure everything you need in bulk_minter.sh using nano for example:<br>
+nano bulk_minter.sh<br>
+-then run the script:<br>
 bash bulk_minter.sh<br>
 <br>
 <br>
