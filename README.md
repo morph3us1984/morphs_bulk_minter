@@ -54,6 +54,9 @@ You can set start_minting_at="1" in the config section to anything you want. Thi
 the first NFT of your collection. You can set this to anything you want. For example: setting it to 100<br>
 will skip the first 99 NFTs and start minting at number 99 of your collection.<br>
 <br>
+-You can combine Batch minting and start_minting_at:<br>
+For example: you can set star_minting_at to 100 and Batch minting to 300. Now the tool will mint NFTs #100 to #400<br>
+<br>
 -Already minted check:<br>
 The tool has a function to compare which NFTs are already in your wallet to the the collection you are <br>
 minting right now. If the NFT exists already, it will mark this NFT as minted already.<br>
