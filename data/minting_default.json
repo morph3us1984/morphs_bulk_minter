@@ -1,0 +1,12 @@
+{	"wallet_id": 3,
+	"royalty_address": "xch13fwy4upjgmu95dmpjrvlqd0p0nplmur5tr29ql8gxhcp4sm9w46qg0l23e",
+	"target_address": "xch13fwy4upjgmu95dmpjrvlqd0p0nplmur5tr29ql8gxhcp4sm9w46qg0l23e",
+	"hash": "",
+	"uris": [""],
+	"meta_hash": "",
+	"meta_uris": [""],
+	"license_hash": "861fdc426f376c0f38475281f5f72cc431d241e3ff15304f18bac95600276fbe"
+        "license_uris": ["https://bafybeigkd7zc46cgsom7f5rkfysmik42kiprfpfx4lptkkirwete2heple.ipfs.nftstorage.link/license.pdf"],
+	"fee": 0,
+	"royalty_percentage": 1000
+}

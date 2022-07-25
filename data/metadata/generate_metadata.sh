@@ -1,47 +1,26 @@
-
-substr="1984"
-while true
-do
-
-uuid=$(uuidgen)
-
-        if [[ $uuid == *"$substr"* ]];
-        then
-                echo "String contains substring."
-                echo "$uuid"
-		break
-        else
-                echo "String does not contain substring."
-        fi
-done
-
 i=1
-START=1
-metadata_file_count=$(ls ../images/*.jpg | wc -l)
-echo "metadata file count is: "$metadata_file_count""
-for (( c=$START; c<=$metadata_file_count; c++ ))
+set -x
+for i in {1..13}
 do
 echo $i
 cp metadata.json.default $i.json
-let i++
-done
 
+done
+#jq '.LINE.X_serial |= "Test Image #\$f"' 123.json
 for f in *.json;
 do
 echo "Processing $f file..";
 filename="${f%%.*}"
 echo "$filename"
-number="Stick Figure #${filename}"
+number="Testing morphs bulk minter #${filename}"
 echo "$number"
 echo "$f"
+#jq '.description |= "Testfiles for morphs bulk minter!"' $f
+#jq --arg num "$number" '.name |= $num' $f >$f
 tmpfile=$(mktemp)
+
 cp "$f" "$tmpfile"
 jq --arg num "$number" '.name |= $num' "$tmpfile" >$f.temp
-mv $f.temp $f
-rm -f "$tmpfile"
-tmpfile=$(mktemp)
-cp "$f" "$tmpfile"
-jq --arg id "$uuid" '.collection.id |= $id' "$tmpfile" >$f.temp
 mv $f.temp $f
 rm -f "$tmpfile"
 done

@@ -1,16 +1,16 @@
 {
     "format": "CHIP-0007",
-    "name": "Stick Figure #1",
-    "description": "Stick Figures!",
+    "name": "TEST MINT #1",
+    "description": "Test files for morphs bulk minter",
     "sensitive_content": false,
     "attributes": [],
     "collection": {
-        "name": "Stick Figures",
-        "id": "1984577a-03cb-4040-9669-8da01d6f1df4",
+        "name": "TEST files for morphs bulk minter",
+        "id": "68387bca-485b-44e9-9ca8-7f17a1984305",
         "attributes": [
             {
                 "type": "description",
-                "value": "Stick Figures!"
+                "value": "TEST files for morphs bulk minter!"
             },
             {
                 "type": "twitter",

@@ -1,4 +1,4 @@
-n=1
+n=5
 #Converting all images to jpg if png
 ls -1 *.png | parallel convert '{}' '{.}.jpg'
 #Backup move all png files
