@@ -599,7 +599,7 @@ minting(){
                                                                 then
                                                                         echo -e "${GREEN}minting success${DEFAULT}"
                                                                         paymentin="done"
-									#sleep 50s
+									#sleep 60s
                                                                 fi
                                                         done
                     
