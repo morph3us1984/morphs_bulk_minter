@@ -72,7 +72,7 @@
     $(greenprint '3)') Reset Minting Jsons
     $(greenprint '4)') Reset Minting Logs
     $(greenprint '5)') Update list of already minted NFTs
-    $(greenprint '5)') Mint NFTs
+    $(greenprint '6)') Mint NFTs
     $(redprint '0)') Exit
     Choose an option:  "
         read -r ans
