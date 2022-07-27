@@ -7,8 +7,8 @@ I am not responsible for anything that happens to your collection!!!!!!!!!<br>
 <br>
 <br>
 Requirements:<br>
-You need jq to use this tool:<br>
-sudo apt install jq -y<br>
+You need jq and curl to use this tool:<br>
+sudo apt install jq curl -y<br>
 You also need parallel and imagemagick if you want to use my short convert&rename script in data/images/<br>
 sudo apt install parallel imagemagick -y<br>
 ---------------------<br>
