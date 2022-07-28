@@ -597,7 +597,7 @@ minting(){
                                                                         sleep 10s
                                                                 elif [ "$result" == "true" ]
                                                                 then
-                                                                        echo -e "${GREEN}minting success${DEFAULT}"
+                                                                        echo -e "${GREEN}minted $minting_file successfully${DEFAULT}"
                                                                         paymentin="done"
 									sleep 120s
                                                                 fi
