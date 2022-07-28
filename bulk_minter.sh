@@ -5,8 +5,8 @@
     wallet_id_xch="" #Wallet with XCH funding for minting process
     wallet_id="" #NFT Wallet
     wallet_fingerprint="" #Your Wallet Fingerprint
-    royalty_address="xch13fwy4upjgmu95dmpjrvlqd0p0nplmur5tr29ql8gxhcp4sm9w46qg0l23e"
-    target_address="xch13fwy4upjgmu95dmpjrvlqd0p0nplmur5tr29ql8gxhcp4sm9w46qg0l23e"
+    royalty_address="xch1ac74hll6w0ldmrpx3eldhxdck6e4hfyhdw5z8dt8seanfldyj0sqfna064"
+    target_address="xch1ac74hll6w0ldmrpx3eldhxdck6e4hfyhdw5z8dt8seanfldyj0sqfna064"
     fee="0"
     royalty_percentage="1000" #1000 = 10% ; 100 = 1% ; 10000 = 100%
     cid_images=""
