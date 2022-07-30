@@ -76,6 +76,10 @@ Checks if files are really online before hashing and creating the minting Json´
 Process will be aborted if a single file is not available!<br>
 <br>
 <br>
+Kudos to https://github.com/steppsr for providing the NFT lookup and list command<br>
+If you want to buy him a beer:<br>
+XCH: xch1u6m6u8kf4ps5lgup0ce2x0xrcysnm70ag4kzzdte0ggt7z8h6m0qx798nk <br>
+<br>
 <br>
 If this tool was helping you, consider buying me a beer, or a beer factory, I am not your supervisor!<br>
 XCH:xch1ac74hll6w0ldmrpx3eldhxdck6e4hfyhdw5z8dt8seanfldyj0sqfna064
