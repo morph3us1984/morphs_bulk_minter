@@ -68,11 +68,11 @@ the first NFT of your collection. You can set this to anything you want. For exa
 
 - You can combine Batch minting and start_minting_at:
 
-For example: you can set star_minting_at to 100 and Batch minting to 300. Now the tool will mint NFTs #100 to #400
+  For example: you can set star_minting_at to 100 and Batch minting to 300. Now the tool will mint NFTs #100 to #400
 
 - Already minted check:
 
-The tool has a function to compare which NFTs are already in your wallet to the the collection you are 
+  The tool has a function to compare which NFTs are already in your wallet to the the collection you are 
 minting right now. If the NFT exists already, it will mark this NFT as minted already.
 You can trigger this by executing it manuelly with option 5 of the menu. It will also check before and after each minting round.
 
