@@ -630,7 +630,7 @@ already_minted_checker(){
     done < lists/links_images_with_hashes.csv
 }
 chia_activate(){
-            echo -e "\tAcitvating Chia Client..."
+            echo -e "\tActivating Chia Client..."
             echo -e "\treturning to folder:"
             cd ~/chia-blockchain && . ./activate && cd -
 }
