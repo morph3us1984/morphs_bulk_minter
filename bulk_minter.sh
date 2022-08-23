@@ -598,6 +598,7 @@ minting(){
                                                                 elif [ "$result" == "true" ]
                                                                 then
                                                                         echo -e "${GREEN}minted $minting_file successfully${DEFAULT}"
+									echo -e "${GREEN}waiting 120 seconds before next mint starts...${DEFAULT}"
                                                                         paymentin="done"
 									sleep 120s
                                                                 fi
